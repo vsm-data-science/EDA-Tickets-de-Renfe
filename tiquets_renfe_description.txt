@@ -1,0 +1,14 @@
+Los precios de los billetes de tren varían en los trenes de alta velocidad (AVE) de Renfe en función de la demanda. Este dataset contiene datos de precios de billetes de AVE para distintas fechas, distintos trayectos, sus duraciones, clase, tipo de billete y tipo de tren entre otros. Nuestro cliente quiere poder predecir el precio del billete en función de las variables presentes en el dataset. Para ello, lo primero que debes hacer es realizar un análisis exploratorio de los datos (EDA). Qué puedes observar en estos datos? Hay diferencias de precio según el tipo de trayecto? Y según el tipo de tren? Qué conclusiones podemos sacar? Será posible crear con estos datos un modelo predictivo? Analiza las variables pensando en el valor que le puedes aportar al cliente con este análisis.
+
+
+Las columnas son:
+
+1.- insert_date: fecha y hora de registro del precio para ese trayecto
+2.- origin: ciudad de origen
+3.- destination: ciudad de destino
+4.- start_date: fecha y hora de inicio del trayecto
+5.- end_date: fecha y hora del final del trayecto
+6.- train_type: tipo de tren
+7.- price: precio del billete para la fecha insert_date
+8.- train_class: clase del billete
+9.- fare: tipo de trayecto y billete
